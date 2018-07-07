@@ -249,7 +249,7 @@ header h1 {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    top: 125%;
+    bottom: 125%;
     left: 50%;
     margin-left: -100px;
     opacity: 0;
@@ -259,12 +259,12 @@ header h1 {
 #contact-me .effect a .tooltiptext::after {
     content: "";
     position: absolute;
-    bottom: 100%;
+    top: 100%;
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent #1c1c1c transparent;
+    border-color: #1c1c1c transparent transparent transparent;
 }
 
 #contact-me .effect a:hover .tooltiptext {
