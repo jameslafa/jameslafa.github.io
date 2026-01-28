@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Lafa | CTO & Engineering Leader</title>
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none';">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="James Lafa - CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich). Expertise in building scalable platforms and engineering teams.">
+    <meta name="author" content="James Lafa">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="James Lafa | CTO & Engineering Leader">
+    <meta property="og:description" content="CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich). Expertise in building scalable platforms and engineering teams.">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://jameslafa.github.io">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="James Lafa | CTO & Engineering Leader">
+    <meta name="twitter:description" content="CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich).">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "James Lafa",
+      "jobTitle": "CTO & Engineering Leader",
+      "url": "https://jameslafa.github.io",
+      "sameAs": [
+        "https://github.com/jameslafa"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Personio"
+      }
+    }
+    </script>
+
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <div class="nav-content">
+            <h1 class="site-title">
+                <a href="#journey" class="site-title-link">James Lafa</a>
+            </h1>
+            <!-- Hamburger Button (Mobile Only) -->
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <!-- Mobile Menu Wrapper -->
+            <div class="mobile-menu-wrapper">
+                <ul class="nav-menu">
+                    <li><a href="#journey" class="nav-link active" data-section="journey">Journey</a></li>
+                    <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+                    <li><a href="#languages" class="nav-link" data-section="languages">Languages</a></li>
+                </ul>
+                <div class="nav-buttons">
+                    <!-- Contact Button -->
+                    <button class="contact-btn" id="contact-btn" title="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m2 7 10 6 10-6"/>
+                        </svg>
+                    </button>
+                    <!-- Language Toggle -->
+                    <div class="language-toggle">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="de">DE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main id="main-content" class="main-content">
+        <!-- Content will be dynamically inserted here based on the current section -->
+    </main>
+
+    <!-- Scripts -->
+    <script src="content.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
