@@ -54,23 +54,23 @@ const content = {
         {
           name: "Programming Languages",
           items: [
+            "Go",
             "Python",
             "Ruby/Rails",
-            "Go",
-            "JavaScript/TypeScript",
             "HTML/CSS",
+            "JavaScript/TypeScript",
           ],
         },
         {
           name: "Hardware & Electronics",
           items: [
             {
-              name: "Arduino",
-              note: "Learning in progress",
+              name: "Electricity Fundamentals",
+              note: "Online course",
             },
             {
-              name: "Electricity",
-              note: "Learning in progress",
+              name: "Arduino",
+              note: "Tinkering home projects",
             },
           ],
         },
@@ -82,8 +82,8 @@ const content = {
               note: "Red Cross volunteer paramedic for Pompiers de Paris, 2008-2012",
             },
             {
-              name: "KLEVER Card",
-              note: "Lead Climbing Certification",
+              name: "Emergency Response Vehicle Driver",
+              note: "As Red Cross volunteer paramedic for Pompiers de Paris, 2008-2012",
             },
             {
               name: "Driver's License B",
@@ -94,8 +94,8 @@ const content = {
               note: null,
             },
             {
-              name: "Emergency Response Vehicle Driver",
-              note: "As Red Cross volunteer paramedic for Pompiers de Paris, 2008-2012",
+              name: "KLEVER Card",
+              note: "Lead Climbing Certification",
             },
           ],
         },
@@ -389,23 +389,23 @@ const content = {
         {
           name: "Programmiersprachen",
           items: [
+            "Go",
             "Python",
             "Ruby/Rails",
-            "Go",
-            "JavaScript/TypeScript",
             "HTML/CSS",
+            "JavaScript/TypeScript",
           ],
         },
         {
           name: "Hardware & Elektronik",
           items: [
             {
-              name: "Arduino",
-              note: "In Arbeit",
+              name: "Grundlagen der Elektrizität",
+              note: "Online-Kurs",
             },
             {
-              name: "Elektrizität",
-              note: "In Arbeit",
+              name: "Arduino",
+              note: "Bastelprojekte zu Hause",
             },
           ],
         },
@@ -417,8 +417,8 @@ const content = {
               note: "Ehrenamtlicher Rettungssanitäter des Roten Kreuzes bei Pompiers de Paris, 2008-2012",
             },
             {
-              name: "KLEVER Card",
-              note: "Vorstiegs-Kletterschein",
+              name: "Einsatzfahrzeug-Fahrer",
+              note: "Als ehrenamtlicher Rettungssanitäter des Roten Kreuzes bei Pompiers de Paris, 2008-2012",
             },
             {
               name: "Führerschein B",
@@ -429,8 +429,8 @@ const content = {
               note: null,
             },
             {
-              name: "Einsatzfahrzeug-Fahrer",
-              note: "Als ehrenamtlicher Rettungssanitäter des Roten Kreuzes bei Pompiers de Paris, 2008-2012",
+              name: "KLEVER Card",
+              note: "Vorstiegs-Kletterschein",
             },
           ],
         },

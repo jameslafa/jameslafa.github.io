@@ -6,7 +6,16 @@
     <title>James Lafa | CTO & Engineering Leader</title>
 
     <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self'; connect-src 'self' https://www.google-analytics.com; base-uri 'self'; form-action 'none';">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GFMT4PZ4PG"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-GFMT4PZ4PG');
+    </script>
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="James Lafa - CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich). Expertise in building scalable platforms and engineering teams.">
@@ -60,7 +69,7 @@
                 <a href="#journey" class="site-title-link">James Lafa</a>
             </h1>
             <!-- Hamburger Button (Mobile Only) -->
-            <button class="hamburger-btn" id="hamburger-btn" aria-label="">
+            <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu">
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
@@ -93,7 +102,21 @@
     <!-- Main Content Container -->
     <main id="main-content" class="main-content">
         <!-- Content will be dynamically inserted here based on the current section -->
+        <noscript>
+            <div style="padding: 40px; text-align: center; color: #e5e7eb;">
+                <h2>JavaScript Required</h2>
+                <p>This website requires JavaScript to display content properly. Please enable JavaScript in your browser.</p>
+                <p>James Lafa - CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich).</p>
+            </div>
+        </noscript>
     </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
 
     <!-- Scripts -->
     <script src="content.js"></script>

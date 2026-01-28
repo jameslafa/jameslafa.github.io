@@ -7,6 +7,7 @@
 - This is a PUBLIC repository - be mindful of what you share
 - Focus on WHAT changed, not lengthy explanations
 - Example: "Add bilingual support for contact button"
+- **Force push is OK** - this is a solo project, force pushing to main is acceptable when needed
 
 ## Code Style
 
@@ -53,6 +54,8 @@
 - Dark theme only
 - Smooth transitions and animations
 - Print-friendly layout
+- **IMPORTANT**: Always test changes on both desktop AND mobile views
+- Mobile breakpoint is at 768px - any CSS changes must work on both sides
 
 ## Structure
 

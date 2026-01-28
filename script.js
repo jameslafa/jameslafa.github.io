@@ -367,19 +367,6 @@ function renderSkillsSection(container) {
     const section = document.createElement('section');
     section.className = 'content-section skills-section';
 
-    const title = document.createElement('h2');
-    title.className = 'section-title';
-    title.textContent = content[currentLang].skills?.title || 'Skills';
-
-    section.appendChild(title);
-
-    if (content[currentLang].skills?.description) {
-        const description = document.createElement('p');
-        description.className = 'section-description';
-        description.textContent = content[currentLang].skills.description;
-        section.appendChild(description);
-    }
-
     // Create categories container
     if (content[currentLang].skills?.categories) {
         const categoriesContainer = document.createElement('div');
@@ -390,7 +377,7 @@ function renderSkillsSection(container) {
             categoryCard.className = 'skill-category-card';
 
             // Category name
-            const categoryName = document.createElement('h3');
+            const categoryName = document.createElement('h2');
             categoryName.className = 'skill-category-name';
             categoryName.textContent = category.name;
             categoryCard.appendChild(categoryName);
@@ -405,7 +392,7 @@ function renderSkillsSection(container) {
                     const subcategoryCard = document.createElement('div');
                     subcategoryCard.className = 'subcategory-card';
 
-                    const subcategoryName = document.createElement('h4');
+                    const subcategoryName = document.createElement('h3');
                     subcategoryName.className = 'subcategory-card-name';
                     subcategoryName.textContent = subcategory.name;
                     subcategoryCard.appendChild(subcategoryName);
@@ -472,19 +459,6 @@ function renderLanguagesSection(container) {
     const section = document.createElement('section');
     section.className = 'content-section languages-section';
 
-    const title = document.createElement('h2');
-    title.className = 'section-title';
-    title.textContent = content[currentLang].languages?.title || 'Languages';
-
-    section.appendChild(title);
-
-    if (content[currentLang].languages?.description) {
-        const description = document.createElement('p');
-        description.className = 'section-description';
-        description.textContent = content[currentLang].languages.description;
-        section.appendChild(description);
-    }
-
     // Create language cards container
     if (content[currentLang].languages?.items) {
         const cardsContainer = document.createElement('div');
@@ -500,7 +474,7 @@ function renderLanguagesSection(container) {
             flag.textContent = lang.flag;
 
             // Language name
-            const name = document.createElement('h3');
+            const name = document.createElement('h2');
             name.className = 'language-name';
             name.textContent = lang.name;
 
@@ -613,7 +587,7 @@ function createTimelineEntry(entry, index) {
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
 
-        const title = document.createElement('h3');
+        const title = document.createElement('h2');
         title.className = 'timeline-title';
         title.textContent = entry.title;
         link.appendChild(title);
@@ -629,7 +603,7 @@ function createTimelineEntry(entry, index) {
 
         titleContainer.appendChild(link);
     } else {
-        const title = document.createElement('h3');
+        const title = document.createElement('h2');
         title.className = 'timeline-title';
         title.textContent = entry.title;
         titleContainer.appendChild(title);
@@ -936,7 +910,7 @@ function createGroupEntry(entry, index) {
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
 
-        const title = document.createElement('h3');
+        const title = document.createElement('h2');
         title.className = 'timeline-title';
         title.textContent = entry.title;
         link.appendChild(title);
@@ -952,7 +926,7 @@ function createGroupEntry(entry, index) {
 
         titleContainer.appendChild(link);
     } else {
-        const title = document.createElement('h3');
+        const title = document.createElement('h2');
         title.className = 'timeline-title';
         title.textContent = entry.title;
         titleContainer.appendChild(title);
@@ -1041,7 +1015,7 @@ function createGroupItemCard(item, index, category = 'work') {
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
 
-        const title = document.createElement('h4');
+        const title = document.createElement('h3');
         title.className = 'timeline-title timeline-title-small';
         title.textContent = item.title;
         link.appendChild(title);
@@ -1057,7 +1031,7 @@ function createGroupItemCard(item, index, category = 'work') {
 
         titleContainer.appendChild(link);
     } else {
-        const title = document.createElement('h4');
+        const title = document.createElement('h3');
         title.className = 'timeline-title timeline-title-small';
         title.textContent = item.title;
         titleContainer.appendChild(title);
@@ -1162,3 +1136,31 @@ function initScrollAnimations() {
     // Initialize wind farm animations after entries are visible
     initWindFarmAnimations();
 }
+
+
+// Back to Top Button
+function initBackToTop() {
+    const backToTopBtn = document.getElementById('back-to-top');
+
+    if (!backToTopBtn) return;
+
+    // Show/hide button based on scroll position
+    window.addEventListener('scroll', () => {
+        if (window.pageYOffset > 300) {
+            backToTopBtn.classList.add('visible');
+        } else {
+            backToTopBtn.classList.remove('visible');
+        }
+    });
+
+    // Scroll to top when clicked
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
+// Initialize back to top button
+initBackToTop();
