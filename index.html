@@ -116,7 +116,6 @@
 
     <!-- Main Content Container -->
     <main id="main-content" class="main-content">
-        <!-- Content will be dynamically inserted here based on the current section -->
         <noscript>
             <div style="padding: 40px; text-align: center; color: #e5e7eb;">
                 <h2>JavaScript Required</h2>
@@ -124,6 +123,182 @@
                 <p>James Lafa - CTO & Engineering Leader based in Berlin. Co-founded Back (acquired by Personio) and Dentolo (acquired by Zurich).</p>
             </div>
         </noscript>
+        <section class="timeline-section">
+      <button class="print-btn" title="Print resume" onclick="window.print()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 6 2 18 2 18 9"></polyline>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+          <rect x="6" y="14" width="12" height="8"></rect>
+        </svg>
+      </button>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div id="timeline-entries" class="timeline-entries">
+    <div class="timeline-entry timeline-entry-life" data-printable="false">
+      <span class="timeline-year timeline-year-life">1982</span>
+      <div class="timeline-dot timeline-dot-life"></div>
+      <div class="timeline-card timeline-card-life">
+        <div class="timeline-title-container"><h2 class="timeline-title">The Beginning</h2></div>
+        <div class="timeline-subtitle">Origin story</div>
+        <p class="timeline-description">Born in 1982 in Lyon, a city known for its history, culture, and exceptional food. Lived there throughout my entire schooling until high school, spending time playing tennis, judo, skateboarding, snowboarding, and on my PlayStation.</p>
+        <div class="timeline-location">Lyon, France</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-life">
+      <span class="timeline-year timeline-year-life">Graduated 2003</span>
+      <div class="timeline-dot timeline-dot-life"></div>
+      <div class="timeline-card timeline-card-life">
+        <div class="timeline-title-container"><h2 class="timeline-title">University of Le Havre</h2></div>
+        <div class="timeline-subtitle">DUT Computer Science - Software Engineering</div>
+        <p class="timeline-description">Computer Science degree focusing on software development and programming fundamentals.</p>
+        <div class="timeline-location">Le Havre, France</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-group-entry timeline-entry-work" data-expanded="false">
+      <span class="timeline-year timeline-year-work">2004 - 2010</span>
+      <div class="timeline-dot timeline-dot-group timeline-dot-work"></div>
+      <div class="timeline-group-content">
+        <div class="timeline-card timeline-group-header timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.accenture.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Accenture</h2><img class="timeline-logo" src="images/company_logos/accenture.svg" alt="Accenture logo" loading="lazy"></a></div>
+          <div class="timeline-group-summary">Seven years at Accenture in various leadership and technical roles across banking, energy, and entertainment sectors. Progressed from leading document publishing teams to managing quality testing operations, working with J2EE/EJB, SAP/ABAP, and building HR systems for major French corporations.</div>
+          <button class="timeline-group-expand-btn">4 positions • See details</button>
+        </div>
+        <div class="timeline-group-items">
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.banquepopulaire.fr" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Banque Populaire for Accenture</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/banque_populaire.svg" alt="Banque Populaire for Accenture logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">J2EE Software Engineer &amp; Team Lead of the document publishing team</div>
+          <p class="timeline-description">Led the document publishing team responsible for producing all legal documents as part of the credit distribution system rebuild. Managed weekly delivery schedules, deployment quality, and team activities. Developed business components for document generation using J2EE/EJB and SOA webservices.</p>
+          <div class="timeline-location">Dijon, France</div>
+        </div>
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.edf.fr" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Electricité De France for Accenture</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/edf.svg" alt="Electricité De France for Accenture logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">Software Engineering Team Lead</div>
+          <p class="timeline-description">Led a team of 5 developers to design and build a new Human Resources Portal for EDF serving over 100,000 employees. Managed team scheduling, daily client reporting, and code reviews. Developed the application using J2EE/EJB, SOA webservices, and Struts/SWT.</p>
+          <div class="timeline-location">Paris, France</div>
+        </div>
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.disneylandparis.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Disneyland Paris for Accenture</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/disney.svg" alt="Disneyland Paris for Accenture logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">SAP Software Engineer</div>
+          <p class="timeline-description">Designed and built HR Access to SAP HR interfaces using ABAP. Worked on parameterisation of Personnel Administration and Organisation Management modules.</p>
+          <div class="timeline-location">Paris, France</div>
+        </div>
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.engie.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Gaz De France (now Engie) for Accenture</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/gdf.png" alt="Gaz De France (now Engie) for Accenture logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">Quality Testing Team Manager</div>
+          <p class="timeline-description">Managed a quality testing team of 15 members (30% offshore in Mauritius) responsible for testing infrastructure and programmes before production deployment. Managed test campaign schedules, task assignments, and budget monitoring. Served as primary customer contact and led standardisation and optimisation of processes and deliverables.</p>
+          <div class="timeline-location">Paris, France</div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-life">
+      <span class="timeline-year timeline-year-life">2008 - 2012</span>
+      <div class="timeline-dot timeline-dot-life"></div>
+      <div class="timeline-card timeline-card-life">
+        <div class="timeline-title-container"><a href="https://www.croix-rouge.fr" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Red Cross Volunteer</h2><img class="timeline-logo" src="images/life/redcross.svg" alt="Red Cross Volunteer logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">EMR &amp; Emergency Vehicle Driver</div>
+        <p class="timeline-description">Joined the Red Cross and led a team conducting weekly outreach patrols to check on homeless people in the district and provide care. Later joined the emergency medical team as an EMR (Emergency Medical Responder) and emergency vehicle driver, volunteering every weekend and responding to emergency situations with the team, stationed at Paris fire stations.</p>
+        <div class="timeline-location">Paris, France</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">2011 - 2012</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><a href="https://fr.wikipedia.org/wiki/OWNI" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">OWNI</h2><img class="timeline-logo" src="images/company_logos/OWNI.svg" alt="OWNI logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">Fullstack Engineer specialised in data journalism</div>
+        <p class="timeline-description">Built web applications focused on data visualisation for French newspapers with high traffic and visibility, including the reveal of WikiLeaks documents.</p>
+        <div class="timeline-location">Paris, France</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-life" data-printable="false">
+      <span class="timeline-year timeline-year-life">2012</span>
+      <div class="timeline-dot timeline-dot-life"></div>
+      <div class="timeline-card timeline-card-life">
+        <div class="timeline-title-container"><h2 class="timeline-title">Moved to Berlin</h2></div>
+        <div class="timeline-subtitle">New Chapter</div>
+        <p class="timeline-description">Moved to Europe's startup capital for new adventures in tech, innovation, and world-class club culture.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">2013 - 2014</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><h2 class="timeline-title">AngryKatze</h2><img class="timeline-logo" src="images/company_logos/angrykatze.jpeg" alt="AngryKatze logo" loading="lazy"></div>
+        <div class="timeline-subtitle">Solo-Founder &amp; Software Engineer</div>
+        <p class="timeline-description">Developed web applications for French newspapers specialising in data journalism. Built a large-scale network scanner for a cybersecurity client.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">2014 - 2015</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><a href="https://minodes.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Minodes</h2><img class="timeline-logo" src="images/company_logos/minodes.jpg" alt="Minodes logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">CTO</div>
+        <p class="timeline-description">Joined as CTO and rebuilt the engineering team from scratch. Built a scalable distributed data processing infrastructure using Python microservices and multiple database technologies to analyse retail foot traffic, customer movement patterns, and dwell time. Developed ML models (SVM) for customer geolocation. Company acquired by Telefónica NEXT.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">2015 - 2017</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><a href="https://www.dentolo.de" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Dentolo</h2><img class="timeline-logo" src="images/company_logos/dentolo.svg" alt="Dentolo logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">CTO &amp; Co-founder</div>
+        <p class="timeline-description">Co-founded Dentolo as CTO and built the complete technical infrastructure from the ground up. Designed and deployed a Ruby on Rails application serving customers, operations team, and dentist network, featuring automated continuous deployment with 1300+ tests, high-availability architecture, and comprehensive security measures. Company acquired by Zurich Insurance in 2019.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-group-entry timeline-entry-work" data-expanded="false">
+      <span class="timeline-year timeline-year-work">2018</span>
+      <div class="timeline-dot timeline-dot-group timeline-dot-work"></div>
+      <div class="timeline-group-content">
+        <div class="timeline-card timeline-group-header timeline-card-work">
+          <div class="timeline-title-container"><h2 class="timeline-title">Entrepreneurship Programs</h2><img class="timeline-logo" src="images/company_logos/ef.png" alt="Entrepreneurship Programs logo" loading="lazy"></div>
+          <div class="timeline-group-summary">Two fellowship programs focused on AI and technology entrepreneurship, exploring machine learning, deep learning, and building AI-powered products in Berlin's startup ecosystem.</div>
+          <button class="timeline-group-expand-btn">2 positions • See details</button>
+        </div>
+        <div class="timeline-group-items">
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.crunchbase.com/organization/hackmind" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Hackmind.ai</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/hackmind.png" alt="Hackmind.ai logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">Fellow in entrepreneurship program</div>
+          <p class="timeline-description">Fellowship program focused on AI, Machine Learning, Blockchain, and Robotics. Developed products using Deep Learning (TensorFlow/Keras), Computer Vision (OpenCV), Deep Reinforcement Learning for game AI, and robotics/IoT projects with Raspberry Pi and Arduino.</p>
+          <div class="timeline-location">Berlin, Germany</div>
+        </div>
+      <div class="timeline-card timeline-group-item-card timeline-card-work">
+          <div class="timeline-title-container"><a href="https://www.joinef.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h3 class="timeline-title timeline-title-small">Entrepreneurs First</h3><img class="timeline-logo timeline-logo-small" src="images/company_logos/ef.png" alt="Entrepreneurs First logo" loading="lazy"></a></div>
+          <div class="timeline-subtitle">Fellow in entrepreneurship program</div>
+          <p class="timeline-description">Fellowship program where I developed an AI-powered communication coach providing instant feedback to sales teams during client calls, addressing limitations of traditional training programs. Left to co-found Back.</p>
+          <div class="timeline-location">Berlin, Germany</div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">2018 - 2022</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><a href="https://www.crunchbase.com/organization/backhq" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Back</h2><img class="timeline-logo" src="images/company_logos/back.jpeg" alt="Back logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">CTO &amp; Co-founder</div>
+        <p class="timeline-description">Co-founded Back as CTO, building an employee experience platform that automates conversations, knowledge, and journeys for HR, IT, and Finance teams. Hired the entire engineering team and built the complete infrastructure and software, integrating with workplace messaging apps like Slack/Teams and HR systems. Used by companies like Loom, Statista, and Pleo. Company acquired by Personio in 2022.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+    <div class="timeline-entry timeline-entry-work">
+      <span class="timeline-year timeline-year-work">Since 2022</span>
+      <div class="timeline-dot timeline-dot-work"></div>
+      <div class="timeline-card timeline-card-work">
+        <div class="timeline-title-container"><a href="https://www.personio.com" class="timeline-link" target="_blank" rel="noopener noreferrer"><h2 class="timeline-title">Personio</h2><img class="timeline-logo" src="images/company_logos/personio.jpeg" alt="Personio logo" loading="lazy"></a></div>
+        <div class="timeline-subtitle">Head of Engineering</div>
+        <p class="timeline-description">Joined as Head of Engineering following Back's acquisition. Led the Automation department with 4 engineering teams, integrating Back's software and developing a workflow automation platform for customer business processes. Later led a Payroll team, rebuilding the architecture and software to deliver a modernised, harmonised payroll solution.</p>
+        <div class="timeline-location">Berlin, Germany</div>
+      </div>
+    </div>
+        </div>
+      </div>
+    </section>
     </main>
 
     <!-- Back to Top Button -->
