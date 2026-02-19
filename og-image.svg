@@ -1,0 +1,62 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0f1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#111827;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6ba3d6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4a8bc2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.03">
+    <line x1="0" y1="0" x2="0" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="60" y1="0" x2="60" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="120" y1="0" x2="120" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="180" y1="0" x2="180" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="240" y1="0" x2="240" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="300" y1="0" x2="300" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="360" y1="0" x2="360" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="420" y1="0" x2="420" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="480" y1="0" x2="480" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="540" y1="0" x2="540" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="600" y1="0" x2="600" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="660" y1="0" x2="660" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="720" y1="0" x2="720" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="780" y1="0" x2="780" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="840" y1="0" x2="840" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="900" y1="0" x2="900" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="960" y1="0" x2="960" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="1020" y1="0" x2="1020" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="1080" y1="0" x2="1080" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="1140" y1="0" x2="1140" y2="630" stroke="#6ba3d6" stroke-width="1" />
+    <line x1="1200" y1="0" x2="1200" y2="630" stroke="#6ba3d6" stroke-width="1" />
+  </g>
+
+  <!-- Accent bar at top -->
+  <rect x="0" y="0" width="1200" height="4" fill="url(#accent)" />
+
+  <!-- Decorative circle -->
+  <circle cx="1050" cy="150" r="200" fill="none" stroke="#6ba3d6" stroke-width="1" opacity="0.06" />
+  <circle cx="1050" cy="150" r="140" fill="none" stroke="#6ba3d6" stroke-width="1" opacity="0.04" />
+
+  <!-- Name -->
+  <text x="80" y="270" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="72" font-weight="700" fill="#f9fafb" letter-spacing="-1">James Lafa</text>
+
+  <!-- Title -->
+  <text x="80" y="340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="36" font-weight="400" fill="#6ba3d6">CTO &amp; Engineering Leader</text>
+
+  <!-- Divider -->
+  <rect x="80" y="375" width="120" height="3" fill="#6ba3d6" rx="1.5" />
+
+  <!-- Subtitle -->
+  <text x="80" y="430" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" font-weight="300" fill="#9ca3af">Berlin · Co-founder · Builder of scalable platforms</text>
+
+  <!-- URL -->
+  <text x="80" y="560" font-family="monospace" font-size="20" fill="#4b5563">jameslafa.github.io</text>
+</svg>
